@@ -1,8 +1,9 @@
+import AboutPage from "./pages/aboutPage";
 
 function App() {
   return (
     <div className="App">
-      Hellow!
+      <AboutPage />
     </div>
   );
 }
