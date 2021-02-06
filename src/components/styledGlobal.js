@@ -62,7 +62,7 @@ span {
     font-family: "Bigilla";
 }
 a{
-    font-size: 1.1.rem;
+    font-size: 1.1rem;
     font-family: "Bigilla";
 
 }

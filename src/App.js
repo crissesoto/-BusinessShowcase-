@@ -1,4 +1,5 @@
 // Global styles
+import Nav from "./components/nav";
 import StyledGlobal from "./components/styledGlobal";
 
 // Pages
@@ -8,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <StyledGlobal />
+      <Nav />
       <AboutPage />
     </div>
   );
