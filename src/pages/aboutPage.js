@@ -4,11 +4,11 @@ import FAQ from "../components/faqSection";
 
 const AboutPage = () => {
     return (
-        <section className="about-page">
+        <div className="about-page">
             <AboutSection />
             <ServicesSection />
             <FAQ />
-        </section>
+        </div>
     )
 }
 
