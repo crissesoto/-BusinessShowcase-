@@ -5,10 +5,17 @@ const StyledGlobal = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Sk-Modernist";
 }
 
 body {
-  background: #1b1b1b;  
+  background: #1b1b1b;
+}
+
+.App {
+    max-width: 1912px;
+    margin: 0 auto; 
+    width: 96%
 }
 
 button {
@@ -16,6 +23,7 @@ button {
     font-size: 1.1rem;
     cursor: pointer;
     background: transparent;
+    font-family: "Bigilla";
     padding: 1rem 2rem;
     border: 1px solid #ffffff;
     color: #ffffff;
@@ -44,13 +52,18 @@ p {
     color: #cccccc;
     font-size: 1.4rem;
     line-height: 150%;
+    font-family: "Bigilla";
+
 }
 span {
     font-weight: bold;
     color: #8f5f37;
+    font-family: "Bigilla";
 }
 a{
     font-size: 1.1.rem;
+    font-family: "Bigilla";
+
 }
 svg {
     color: #ffffff;

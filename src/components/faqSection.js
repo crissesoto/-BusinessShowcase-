@@ -1,7 +1,8 @@
+import styled from 'styled-components'
 
 const FAQ = () => {
     return (
-        <section className="faq-section">
+        <StyledFAQsection className="faq-section">
             <h2>Any Questions? <span>FAQ</span></h2>
             <div className="question-container">
                 <h4>How do I start?</h4>
@@ -27,8 +28,12 @@ const FAQ = () => {
                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia</p>
                 </div>
             </div>
-        </section>
+        </StyledFAQsection>
     )
-}
+};
+
+const StyledFAQsection = styled.section`
+
+`;
 
 export default FAQ;

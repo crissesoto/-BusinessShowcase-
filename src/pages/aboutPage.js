@@ -10,6 +10,6 @@ const AboutPage = () => {
             <FAQ />
         </div>
     )
-}
+};
 
 export default AboutPage;
